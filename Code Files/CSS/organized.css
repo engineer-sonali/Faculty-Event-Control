@@ -1,0 +1,42 @@
+
+*{margin: 0;
+
+padding: 0;
+}
+
+body{
+
+background-image: url(../Images/img6.jpg); 
+background-repeat: no-repeat;
+
+background-size: 100% 900px;
+}
+h1{
+color: white;
+
+text-align: center;
+
+font-style: italic; 
+padding: 20px;
+}
+label{
+	color: white;
+	font-size: 20px;
+	font-style:  italic;
+}
+.eventorganized{
+	width:60%;
+	height: 50%;
+	margin:auto;
+	background-color: rgb(0,0,0,0.4);
+}
+#eventorganized{
+	width:60%;
+	margin:auto;
+}
+#eid,#fid,#button{
+	width:400px;
+	outline:0;
+	padding-left: 5px;
+	border: 3px groove;
+}

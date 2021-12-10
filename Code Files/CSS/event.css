@@ -1,0 +1,48 @@
+
+*{margin: 0;
+
+padding: 0;
+}
+
+body{
+
+background-image: url(../Images/img6.jpg); 
+background-repeat: no-repeat;
+
+background-size: 100% 900px;
+}
+
+h2{
+color: white;
+
+text-align: center;
+
+font-style: italic; 
+padding: 5px;
+}
+label{
+	color: white;
+	font-size: 20px;
+	font-style:  italic;
+}
+.addevent{
+	width:60%;
+	margin:auto;
+	background-color: rgb(0,0,0,0.4);
+}
+#addevent{
+	width:60%;
+	margin:auto;
+}
+#eid,#etype,#etitle,#edate,#estarttime,#eendtime,#evenue,#espeaker,#ecoordinator,#eincharge,#button{
+	width:400px;
+	outline:0;
+	padding-left: 5px;
+	border: 3px groove;
+}
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
